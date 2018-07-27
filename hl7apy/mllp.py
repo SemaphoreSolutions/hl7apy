@@ -168,11 +168,6 @@ class MLLPServer(ThreadingMixIn, TCPServer):
         self.timeout = timeout
         TCPServer.__init__(self, (host, port), _MLLPRequestHandler)
 
-    # JCJC
-    def shutdown_request(self, request):
-        # leave socket active
-        pass
-
 
 class AbstractHandler(object):
     """
