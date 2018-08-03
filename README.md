@@ -1,3 +1,9 @@
+
+S4 detail
+To upload to Artifactory: 
+`python setup.py sdist upload -r local`
+----------------------------------------------------------------------
+
 HL7apy is a lightweight Python package to intuitively handle [HL7](http://www.hl7.org) v2 messages according to HL7 specifications.
 
 The main features includes:
