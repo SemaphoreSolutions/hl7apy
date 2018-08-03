@@ -17,3 +17,9 @@ docs/_build
 .tox
 .coverage
 MANIFEST
+
+.idea/
+CCF-Clarity.iml
+pip.conf
+
+/hl7apy.egg-info
